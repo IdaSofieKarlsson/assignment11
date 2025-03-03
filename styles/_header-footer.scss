@@ -1,6 +1,31 @@
-header {
-    background-color: lightblue;
+.nav {
+    max-width: 1110px;
+    width: 100%;
+    min-height: 23px;
+    height: 100%;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 61px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.nav-list {
+    display: flex;
 }
-footer {
-    background-color: lightcoral;
+.nav-list-item {
+    margin-left: 29px;
+    list-style-type: none;
+}
+
+.nav-list-footer {
+    display: flex;
+}
+.nav-footer-social {
+    margin-left: 95px;
+    align-self: center;
 }

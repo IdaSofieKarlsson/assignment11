@@ -1,13 +1,9 @@
 @use 'variables';
-
 @import 'main';
 @import 'header-footer';
 @import 'project';
 @import 'contact';
-
-
-
-/*
-font-family: "Mulish", serif;
-*/
-
+@import 'font-styling';
+body {
+    background-color: #FFFFFF;
+}

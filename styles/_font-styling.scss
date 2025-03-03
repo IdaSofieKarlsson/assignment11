@@ -1,0 +1,99 @@
+p, h1, h2, h3, h4, span, li, a, button, .label, .input {
+    font-family: variables.$main-font;
+    color: variables.$main-txt-color;
+}
+span {
+    color: variables.$span-txt-color;
+}
+%h2 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+.intro-h2 {
+    @extend %h2; 
+    line-height: 60px;
+}
+.project-intro-h2 {
+    @extend %h2;
+    line-height: 55px;
+}
+.contact-intro-h2 {
+    @extend %h2;
+    line-height: 55px;
+}
+.service-offer-text-p {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0px;
+}
+.intro-p {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: auto;
+    letter-spacing: -0.42px;
+}
+.awards h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: auto;
+    letter-spacing: 0px;
+}
+.awards h4, .detail-name-n-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: auto;
+    letter-spacing: 0px;
+}
+.detail-title {
+    opacity: 50%;
+}
+.nav-list-item a:link, a:visited {
+    color: variables.$main-txt-color;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: auto;
+    letter-spacing: -0.35px;
+    text-decoration: none;
+}
+.quote-p {
+    font-style: italic;
+    font-size: 18px;
+    line-height: auto;
+    letter-spacing: 0px;
+    opacity: 60%;
+}
+.service-offer-list li {
+    list-style-type: none;
+    font-size: 18px;
+    line-height: auto;
+    letter-spacing: 0px;
+    opacity: 60%;
+}
+.awards-name-project, .awards-year-project-1, .awards-year-project-2, .awards-year-project-3, .awards-year-project-4 {
+    font-size: 16px;
+    line-height: auto;
+    letter-spacing: 0px;
+}
+.awards-description-project {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    opacity: 60%;
+}
+.project-text-under-img, .contact-intro-p, .project-intro-p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    opacity: 80%;
+}
+.submit-btn, .label {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: auto;
+    letter-spacing: 0px;
+}
+.label {
+    opacity: 60%;
+}

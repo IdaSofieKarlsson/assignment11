@@ -1,3 +1,105 @@
-main {
-    background-color: grey;
+.project-intro {
+    max-width: 1110px;
+    width: 100%;
+    min-height: 381px;
+    height: 100%;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-bottom: 61px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.project-intro-text {
+    max-width: 635px;
+    width: 100%;
+    min-height: 381px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.project-intro-h2 {
+    max-width: 495px;
+    width: 100%;
+    min-height: 130px;
+    height: 100%;
+    margin-bottom: 29px;
+}
+.project-intro-p {
+    max-width: 635px;
+    width: 100%;
+    min-height: 222px;
+    height: 100%;
+}
+.project-intro-details {
+    max-width: 335px;
+    width: 100%;
+    min-height: 343px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+}
+.detail-name-n-title {
+    max-width: 335px;
+    width: 100%;
+    min-height: 42px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.detail-name {
+    max-width: 198px;
+    width: 100%;
+}
+.details-rectangle {
+    max-width: 335px;
+    width: 100%;
+    min-height: 1px;
+    height: 100%;
+    background-color: variables.$divider-color;
+    opacity: 30%;
+}
+.project-big-img {
+    max-width: 1110px;
+    width: 100%;
+    min-height: 660px;
+    height: 100%;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-bottom: 45px;
+}
+.project-text-under-img {
+    max-width: 1110px;
+    width: 100%;
+    min-height: 93px;
+    height: 100%;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-bottom: 45px;
+}
+.project-3-img {
+    max-width: 1110px;
+    width: 100%;
+    min-height: 400px;
+    height: 100%;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-bottom: 132px;
+    display: flex;
+    justify-content: space-between;
 }

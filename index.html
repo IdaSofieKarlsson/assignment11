@@ -3,93 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Genesis - Home</title>
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <link rel="stylesheet" href="styles/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Genesis - Home</title>
 </head>
 <body>
     <header>
-        <nav>
-            <img class="nav-logo" src="images/Logo.svg" alt="Logotype" width="90px" height="19px">
+        <nav class="nav">
+            <a href="index.html"><img class="nav-logo" src="images/Logo.svg" alt="Logotype" width="90px" height="19px"></a>
             <ul class="nav-list">
-                <li class="nav-list-item"><a href="">Projects</a></li>
-                <li class="nav-list-item"><a href="">Contact</a></li>
+                <li class="nav-list-item"><a href="pages/project.html">Projects</a></li>
+                <li class="nav-list-item"><a href="pages/contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="title">
-            <p>Shooting Stars</p>
-            <h2>Hello, I’m Bakhtiyar Sattarov, <span>product designer</span> with experience in studios and startups</h2>
-        </div>
-        <div class="quote">
-            <div class="rectangle"></div>
-            <p>Design is about progress</p>
-        </div>
-        <div class="projects">
-            <img src="images/grey-person-center.png" alt="" width="357px" height="413px">
-            <img src="images/person-color-from-head.png" alt="" width="356px" height="351px">
-            <img src="images/person-grey-sweater-thinking.png" alt="" width="350px" height="599px">
-            <img src="images/statue-of-liberty.png" alt="" width="350px" height="413px">
-            <img src="images/man-on-cactus.png" alt="" width="357px" height="475px">
-            <img src="images/man-with-grey-liquid-on-face.png" alt="" width="357px" height="413px">
-            <img src="images/woman-on-red-carpet-in-sky.png" alt="" width="356px" height="537px">
-            <img src="images/person-on-rock-in-sunset.png" alt="" width="357px" height="475px">
-            <img src="images/person-with-keyboard.png" alt="" width="357px" height="537px">
-            <img src="images/woman-in-desert.png" alt="" width="356px" height="599px">
-            <img src="images/man-in-red-poppy-field-sundown.png" alt="" width="357px" height="537px">
-            <img src="images/person-in-green-valley.png" alt="" width="350px" height="351px">
-        </div>
-        <div class="group">
-            <div class="group-text">
-                <p>We love work hard and explore new things that’s why we cover lot of things. Check our service list and view details</p>
+        <div class="intro-n-quote">
+            <div class="intro">
+                <p class="intro-p"><span>Shooting Stars</span></p>
+                <h2 class="intro-h2">Hello, I'm Bakhtiyar Sattarov, <span>product designer</span> with experience in studios and startups</h2>
             </div>
-            <ul class="service-1">
-                <li>Multimedia</li>
-                <li>Interactive Design</li>
-                <li>Branding</li>
-            </ul>
-            <ul class="service-2">
-                <li>Creative design</li>
-                <li>Packaging</li>
-                <li>Coding</li>
-            </ul>
+            <div class="quote">
+                <div class="quote-rectangle"></div>
+                <p class="quote-p">Design is about progress</p>
+            </div>
+        </div>
+        <div class="container-12-img">
+            <img class="container-12-img-1" src="images/grey-person-center.png" alt="" width="357px" height="413px">
+            <img class="container-12-img-2" src="images/person-color-from-head.png" alt="" width="356px" height="351px">
+            <img class="container-12-img-3" src="images/person-grey-sweater-thinking.png" alt="" width="350px" height="599px">
+            <img class="container-12-img-4" src="images/statue-of-liberty.png" alt="" width="350px" height="413px">
+            <img class="container-12-img-5" src="images/man-on-cactus.png" alt="" width="357px" height="475px">
+            <img class="container-12-img-6" src="images/man-with-grey-liquid-on-face.png" alt="" width="357px" height="413px">
+            <img class="container-12-img-7" src="images/woman-on-red-carpet-in-sky.png" alt="" width="356px" height="537px">
+            <img class="container-12-img-8" src="images/person-on-rock-in-sunset.png" alt="" width="357px" height="475px">
+            <img class="container-12-img-9" src="images/person-with-keyboard.png" alt="" width="357px" height="537px">
+            <img class="container-12-img-10" src="images/woman-in-desert.png" alt="" width="356px" height="599px">
+            <img class="container-12-img-11" src="images/man-in-red-poppy-field-sundown.png" alt="" width="357px" height="537px">
+            <img class="container-12-img-12" src="images/person-in-green-valley.png" alt="" width="350px" height="351px">
+        </div>
+        <div class="service-offer">
+            <div class="service-offer-text">
+                <p class="service-offer-text-p">We love work hard and explore new things that's why we cover lot of things. Check our service 
+                    list and view details</p>
+            </div>
+            <div class="service-offer-2-list">
+                <ul class="service-offer-list">
+                    <li>Multimedia</li>
+                    <li>Interactive Design</li>
+                    <li>Branding</li>
+                </ul>
+                <ul class="service-offer-list">
+                    <li>Creative design</li>
+                    <li>Packaging</li>
+                    <li>Coding</li>
+                </ul>   
+            </div>
         </div>
         <div class="awards">
-            <div class="divider"></div>
-            <h3 class="awards-type">Awwwards</h3>
-            <h4 class="awards-title">Site of the day</h4>
-            <p class="awards-name-project">Genesis UI Kit</p>
-            <p class="awards-description-project">Application that helps to find nearest sport centres</p>
-            <p class="awards-year-project">2018</p>
-            <h4 class="awards-title">Best navigation</h4>
-            <p class="awards-name-project">Genesis Template</p>
-            <p class="awards-description-project">Application that helps to find nearest sport centres</p>
-            <p class="awards-year-project">2018</p>
-            <div class="divider"></div>
-            <h3 class="awards-type">CSSDesignAwards</h3>
-            <h4 class="awards-title">Site of the day</h4>
-            <p class="awards-name-project">Genesis UI Kit</p>
-            <p class="awards-description-project">Application that helps to find nearest sport centres</p>
-            <p class="awards-year-project">2017</p>
-            <h4 class="awards-title">Best navigation</h4>
-            <p class="awards-name-project">Genesis Template</p>
-            <p class="awards-description-project">Application that helps to find nearest sport centres</p>
-            <p class="awards-year-project">2016</p>
-            <div class="divider"></div>
+            <div class="divider-1"></div>
+            <h3 class="awards-type-A">Awwwards</h3>
+            <h4 class="awards-title-1">Site of the day</h4>
+            <div class="awards-project-1">
+                <p class="awards-name-project">Genesis UI Kit</p>
+                <p class="awards-description-project">Application that helps to find nearest sport centres</p>
+            </div>
+            <p class="awards-year-project-1">2018</p>
+            <h4 class="awards-title-2">Best navigation</h4>
+            <div class="awards-project-2">
+                <p class="awards-name-project">Genesis Template</p>
+                <p class="awards-description-project">Application that helps to find nearest sport centres</p>
+            </div>
+            <p class="awards-year-project-2">2018</p>
+            <div class="divider-2"></div>
+            <h3 class="awards-type-B">CSSDesignAwards</h3>
+            <h4 class="awards-title-3">Site of the day</h4>
+            <div class="awards-project-3">
+                <p class="awards-name-project">Genesis UI Kit</p>
+                <p class="awards-description-project">Application that helps to find nearest sport centres</p>
+            </div>
+            <p class="awards-year-project-3">2017</p>
+            <h4 class="awards-title-4">Best navigation</h4>
+            <div class="awards-project-4">
+                <p class="awards-name-project">Genesis Template</p>
+                <p class="awards-description-project">Application that helps to find nearest sport centres</p>
+            </div>
+            <p class="awards-year-project-4">2016</p>
+            <div class="divider-3"></div>
         </div>
     </main>
     <footer>
-        <nav>
-            <img class="nav-logo" src="images/Logo.svg" alt="Logotype" width="90px" height="19px">
-            <ul class="nav-list">
-                <li class="nav-list-item"><a href="">Projects</a></li>
-                <li class="nav-list-item"><a href="">Contact</a></li>
-            </ul>
-            <img class="nav-social" src="images/Social.svg" alt="Social media" width="95px" height="15px">
+        <nav class="nav">
+            <a href="index.html"><img class="nav-logo" src="images/Logo.svg" alt="Logotype" width="90px" height="19px"></a>
+            <div class="nav-list">
+                <ul class="nav-list-footer">
+                    <li class="nav-list-item"><a href="pages/project.html">Projects</a></li>
+                    <li class="nav-list-item"><a href="pages/contact.html">Contact</a></li>
+                </ul>
+                <img class="nav-footer-social" src="images/Social.svg" alt="Social media" width="95px" height="15px">
+            </div>
         </nav>
     </footer>
 </body>

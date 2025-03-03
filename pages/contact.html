@@ -3,45 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us!</title>
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <link rel="stylesheet" href="../styles/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="../styles/index.css">
+    <title>Genesis - Contact Us!</title>
 </head>
 <body>
     <header>
-        <h2>header here</h2>
+        <nav class="nav">
+            <a href="../index.html"><img class="nav-logo" src="../images/Logo.svg" alt="Logotype" width="90px" height="19px"></a>
+            <ul class="nav-list">
+                <li class="nav-list-item"><a href="../pages/project.html">Projects</a></li>
+                <li class="nav-list-item"><a href="../pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <div contact-title>
-            <h2>Full set of great features to make your product fresh</h2>
-            <p>Our favorite brands are our friends! We help them to achieve their goals, they help us to stay sharp.</p>
-        </div>
-        <div class="contact-form">
+        <div class="contact-intro">
+            <div class="contact-intro-text">
+                <h2 class="contact-intro-h2">Full set of great features to make your product fresh</h2>
+                <p class="contact-intro-p">Our favorite brands are our friends! We help them to achieve their goals, they help us to stay sharp.</p>
+            </div>
             <form action="">
                 <div class="label-n-input">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" required>
+                    <label class="label" for="name">Name</label>
+                    <input class="input" type="text" name="name" id="name" required>
                 </div>
+                <div class="form-divider"></div>
                 <div class="label-n-input">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" required>
+                    <label class="label" for="email">Email</label>
+                    <input class="input" type="email" name="email" id="email" required>
                 </div>
+                <div class="form-divider"></div>
                 <div class="label-n-input">
-                    <label for="message">Message</label>
-                    <input type="text" name="message" id="message" required>
+                    <label class="label" for="message">Message</label>
+                    <input class="input" type="text" name="message" id="message" required>
                 </div>
-                <button type="submit">Submit</button>
+                <div class="form-divider"></div>
+                <div class="div-submit-btn">
+                   <button class="submit-btn" type="submit">Submit</button> 
+                </div>
             </form>
         </div>
-        <div class="map-img">
+        <div class="contact-map-img">
             <img src="../images/Map.png" alt="Map over Broadway area" width="1100px" height="570px"> 
         </div>
     </main>
     <footer>
-        <h2>footer here</h2>
+        <nav class="nav">
+            <a href="../index.html"><img class="nav-logo" src="../images/Logo.svg" alt="Logotype" width="90px" height="19px"></a>
+            <div class="nav-list">
+                <ul class="nav-list-footer">
+                    <li class="nav-list-item"><a href="../pages/project.html">Projects</a></li>
+                    <li class="nav-list-item"><a href="../pages/contact.html">Contact</a></li>
+                </ul>
+                <img class="nav-footer-social" src="../images/Social.svg" alt="Social media" width="95px" height="15px">
+            </div>
+        </nav>
     </footer>
 </body>
 </html>
